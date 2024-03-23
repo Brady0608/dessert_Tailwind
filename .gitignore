@@ -1,0 +1,7 @@
+*.json
+*.js
+/img
+/node_modules
+/font
+/css
+/src
