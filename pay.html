@@ -13,21 +13,21 @@
 <body>
 
   <nav class="relative flex flex-wrap items-center content-between py-3 px-4 ">
-    <div class="container mx-auto sm:px-4">
-      <button class="py-1 px-2 text-md leading-normal bg-transparent border border-transparent rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="px-5 py-1 border border-gray-600 rounded"></span>
-      </button>
+    <div class="container mx-auto lg:px-4 flex justify-between">
+
+      <img src="./images/dehaze-24px.png" class="w-[30px] h-[30px] ml-[2%] mt-5 lg:hidden" alt="">
+
       <nav class="relative flex flex-wrap items-center content-between py-3 px-4 text-black">
         <div class="container mx-auto sm:px-4">
           <a class="inline-block pt-1 pb-1 mr-4 text-lg whitespace-no-wrap" href="index.html">
-              <img src="./images/logo-all-dark.svg" alt="logo" width="219" height="40">
+            <img src="./images/logo-all-dark.svg" alt="logo" width="219" height="40">
           </a>
         </div>
       </nav>
-      <div class="hidden flex-grow items-center order-1" id="navbarTogglerDemo03">
-        <ul class="flex flex-wrap list-reset pl-0 mb-0 ms-auto mb-2 lg:mb-0">
+      <div class="hidden lg:block  flex-grow items-center  order-1" >
+        <ul class="flex flex-wrap list-reset items-center justify-end mt-4">
           <li class="">
-            <a class="inline-block py-2 px-4 no-underline active" aria-current="page" href="index.html">首頁</a>
+            <a class="inline-block py-2 px-4 no-underline " aria-current="page" href="index.html">首頁</a>
           </li>
           <li class="">
             <a class="inline-block py-2 px-4 no-underline" href="product.html">甜點</a>
@@ -37,11 +37,11 @@
           </li>
         </ul>
       </div>
-      <div class="flex flex-row items-center order-1">
+      <div class="flex flex-row items-end order-1 mb-8">
         <a href="cart.html"><img src="./images/shopping_cart.png" alt="cart"></a>
       </div>
     </div>
-  </nav>
+  </nav>  
 
   <section>
     <div class="container mx-auto sm:px-4 mt-4 md:mb-12">
@@ -168,60 +168,52 @@
     </div>
   
   </section>
-  <!-- 訂閱email -->
-  <section style="background-color:#3F5D45;height: 116px;display: flex;
-  align-items: center;">
+  <section class=" bg-DarkGreen h-[116px] flex items-center">
     <div class="container mx-auto sm:px-4">
-      <div class="flex flex-wrap " style="display: flex;
-      justify-content: center;
-      align-items: center;">
-        <div class="md:w-1/3 pr-4 pl-4" style="display: flex;align-items: center;
-        justify-content: center;gap:20px;" >
-          <img style="width: 40px;height: 40px;" src="./images/logo-light.svg" alt="logo">
-          <span style="color: #EAF0ED;font-size: 24px;">訂閱你我的甜蜜郵件</span>
+      <div class="flex flex-wrap justify-center items-center">
+        <div class="md:w-1/3 pr-4 pl-4 flex items-center justify-center gap-5" >
+          <img class="w-10 h-10" src="./images/logo-light.svg" alt="logo">
+          <span class=" text-White text-2xl">訂閱你我的甜蜜郵件</span>
         </div>
-        <div class="md:w-2/5 pr-4 pl-4" style="display: flex;">
-          <div style="position: absolute;">
+        <div class="md:w-2/5 pr-4 pl-4 flex">
+          <div class="" style="position: absolute;">
             <img style="position: relative;
             top: 15px;
             left: 20px;" src="./images/mail-24px.png" alt="">
           </div>
-          <input style="padding-left: 50px;" type="email" class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input class=" pl-[50px]" type="email" class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded" id="exampleInputEmail1" aria-describedby="emailHelp">
           <button class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded" type="submit" value="Submit" style="width: 64px;height: 56px;background-color: #FFE180;"><img src="./images/arrow_forward-24px.png" alt="arrow"></button>
         </div>
       </div>
     </div>
   </section>
-  <footer style="background-color: #EAF0ED;height: 341px;">
+  <footer class=" bg-White h-[341px]">
     <div class="container mx-auto sm:px-4">
-      <div class="flex flex-wrap " style="display: flex;
-      justify-content: center;
-      align-items: center;">
-        <div class="md:w-2/5 pr-4 pl-4">
-          <div style="display: flex;flex-direction: column;justify-content: space-between;height: 200px;margin-top: 50px;">
-            <img style="width: 171px;height: 27px;" src="./images/logotype-lg-dark.svg" alt="footerlogo">
-            <div style="display: flex;flex-direction: column;">
+      <div class="flex flex-wrap justify-center items-center">
+        <div class="w-2/5 pr-4 pl-4">
+          <div class="flex flex-col justify-between h-[200px] mt-[50px]">
+            <img class="w-[171px] h-[27px]" src="./images/logotype-lg-dark.svg" alt="footerlogo">
+            <div class="flex flex-col">
               <span>07-1234-5678</span>
               <span>sweetaste@email.com</span>
               <span>800 高雄市新興區幸福路 520 號</span>
             </div>
           </div>
-          <div style="display: flex;gap:6px;margin-top: 30px;">
-            <a href="/"><img style="width: 32px;height: 32px;" src="./images/ic-line@.svg"></a>
-            <a href="/"><img style="width: 32px;height: 32px;" src="./images/ic-facebook.svg"></a>
+          <div class="flex gap-[6px] mt-[30px]">
+            <a href="/"><img class="w-8 h-8" src="./images/ic-line@.svg"></a>
+            <a href="/"><img class="w-8 h-8" src="./images/ic-facebook.svg"></a>
           </div>
-          <span class="block md:block xl:hidden d-xxl-none" style="color:#3F5D45 ;font-size: 16px;margin-top: 5px;">© 2018 Sweetaste* All Rights Reserved</span>
+          <span class="lg:hidden text-DarkGreen text-base mt-[5px]">© 2018 Sweetaste* All Rights Reserved</span>
         </div>
-        <div class="md:w-2/5 pr-4 pl-4 hidden md:hidden xl:block d-xxl-block">
-          <div style="display: flex;flex-direction: column;align-items: flex-end;gap: 35px;;margin-top: 50px;">
-            <img style="width: 59px;height: 219px;" src="./images/sm-今天是個吃甜點的好日子.svg" alt="eatlogo">
-            <span style="color:#3F5D45 ;font-size: 16px;">© 2018 Sweetaste* All Rights Reserved</span>
+        <div class="mw-2/5 pr-4 pl-4 hidden lg:block">
+          <div class="flex flex-col items-end gap-[35px] mt-[50px]">
+            <img class="w-[59px] h-[219px]" src="./images/sm-今天是個吃甜點的好日子.svg" alt="eatlogo">
+            <span class=" text-DarkGreen text-base">© 2018 Sweetaste* All Rights Reserved</span>
           </div>
         </div>
       </div>
     </div>
   </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
